@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-nav {
+  	margin-left: auto;
+}
+
+.navbar {
+  	background-color: #000017;
+}
+
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-link {
+  	color: #fff;
+  	margin-left: 1cm;
+}
+
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-link:hover{
+  	background-color: #86fa02;
+  	color: #000017;
+  	border-radius: 5px;
+  	transition: transform 0.3s ease-out;
+  	transform: translateY(-3px);
+}
+
+.navbar-toggler {
+    border-color: #fff;
+}
+
+.name {
+	position: absolute;
+    left: 50%;
+    margin-left: -80px !important;  /* 50% of your logo width */
+    display: block;
+	color: #fff!important;
+}
+
+.name:hover {
+  	color: #86fa02!important;
+  	transition: transform 0.3s ease-out;
+  	transform: translateY(-3px);
+}
+
+.navbar-brand {
+	padding-left: 30px!important;
+}
+
+.subscribe {
+	padding-top: 100px;
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+  	height: 200px;
+  	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.subscribe > h2 {
+	margin-bottom: 20px;
+	word-wrap: break-word;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.subscribe input[type='email'] {
+  	max-width: 275px;
+  	width: 100%;
+  	padding: 5px;
+}
+
+.subscribe input[type='submit'] {
+  	max-width: 150px;
+  	width: 100%;
+  	height: 40px;
+  	margin: 15px 0;
+ 	background-color: #000017;
+  	color: #fff;
+}
+
+.subscribe input[type='submit']:hover {
+	background-color: #86fa02;
+	color: #000017;
+	font-weight: 800;
+	transition: background-color color 1s;
+}
+
+.container {
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+
+.medio {
+	display: flex;
+}
+
+.features .icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 125px;
+	width: 20vw;
+	color: #000017;
+}
+
+.features .desc {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 125px;
+	width: 35vw;
+	padding: 5px;
+}
+
+ @media (max-width: 550px) {
+	.features .icon {
+	  	display: none;
+	}
+}
+  
+@media (max-width: 550px) {
+	.features .desc {
+	  	width: 100%;
+		padding: 0 auto;
+	  	text-align: center;
+	}
+} 
+
+.authenticity {
+	margin-top: 80px;
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+
+.authenticity > h2 {
+	margin-bottom: 30px;
+}
+
+.authenticity > iframe {
+	max-width: 560px;
+	width: 100%;
+}
+
+.prices {
+	margin: 50px auto;
+}
+
+.prices > h2 {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.prices > p {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.pricing {
+	margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: calc(100% / 3);
+	margin: 10px;
+	border: 1px solid #000017;
+	border-radius: 3px;
+}
+
+.product > .level {
+	background-color: #ddd;
+	color: #000017;
+	padding: 15px 0;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.product > h2 {
+  	margin-top: 15px;
+}
+
+.product > ol {
+  	margin: 15px 0;
+}
+
+.product > ol > li {
+  	padding: 5px 0;
+}
+
+.product > button {
+	border: 0;
+	margin: 15px 0;
+	background-color: #000017;
+	font-weight: 400;
+	color: white;
+}
+
+.product > button:hover {
+	background-color: #86fa02;
+	color: #000017;
+	font-weight: 800;
+	transition: transform 0.3s ease-out;
+  	transform: translateY(-3px);
+}
+
+@media (max-width: 800px) {
+	.pricing {
+		flex-direction: column;
+	}
+}
+
+.product {
+	max-width: 300px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.footer {
+	font-weight: 300;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0rem;
+	background: #000017;
+}
+
+.footer > p {
+    margin: 1rem;
+    color: #fff;
+}
+  
+.footer > p > a {
+    text-decoration: none;
+    color: #86fa02;  
+}
+
+.logo-footer {
+    margin-top: -7px;
+	margin-left: -5px;
+}

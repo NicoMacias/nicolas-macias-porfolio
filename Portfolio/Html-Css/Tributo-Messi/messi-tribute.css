@@ -1,0 +1,64 @@
+body {
+  	font-family: arial, sans-serif;
+  	font-size: 16px;
+  	line-height: 1.5;
+  	text-align: center;
+    color: #000;
+    margin: 0;
+}
+
+.carousel .carousel-item {
+	height: 660px;
+}
+  
+h1 {
+  	font-size: 50px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.title > h4 {
+	text-align: center;
+}
+
+.title > h2 {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.accordion {
+	width: 80%;
+	margin: auto;
+}
+
+.cita {
+	padding-top: 40px;
+	justify-content: center;
+	font-style: italic;
+    max-width: 500px;
+	align-items: center;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+.final {
+	margin: 20px auto 20px auto;
+	text-align: center;
+	font-size: 20px;
+}
+
+@media (max-width: 768px) {
+	.title > h2 {
+		padding: 20px 50px;
+	}
+	.carousel .carousel-item {
+		height: 200px;
+	}
+	.cita {
+		padding: 20px 50px;
+	}
+	.final {
+		padding: 20px 50px;
+	}
+}
